@@ -99,6 +99,10 @@ html {
     font-size: 80%;
 }
 
+hidden {
+    display: none;
+}
+
 h1 {
     font-weight: 600;
 }
