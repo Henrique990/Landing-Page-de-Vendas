@@ -93,6 +93,7 @@ body {
     font-size: .9375rem;
     margin: 0;
     padding: 0;
+    /* background-color: #ffda00 !important; */
 }
 
 html {
@@ -849,6 +850,7 @@ p {
 
 .ts-width__auto {
     width: auto !important;
+    max-width: 220px !important;
 }
 
 /*-------------------------------------------
@@ -1312,13 +1314,13 @@ hr {
 
 .ts-inputs__transparent input, .ts-inputs__transparent textarea {
     background-color: transparent;
-    color: #fff;
+    color: #000;
 }
 
 .ts-inputs__transparent input:active, .ts-inputs__transparent input:focus,
 .ts-inputs__transparent textarea:active, .ts-inputs__transparent textarea:focus {
     background-color: transparent;
-    color: #fff;
+    color: #000;
 }
 
 .ts-item {
